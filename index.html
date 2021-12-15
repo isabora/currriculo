@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <title>Currículo</title>
 </head>
 <body>
     <!--NAVBAR-->
-    <header>
+    <header id="navbar">
         <img src="img/icon-developer.png" alt="icon developer">
-        <h2>Isabeli Bora</h2>
+        <h2>Currículo</h2>
         <nav>
             <ul id="navbar-list">
                 <li><a href="#">Sobre</a></li>
@@ -23,13 +26,12 @@
     <!--FIM NAVBAR-->
     <!--BANNER INÍCIO-->
     <main>
-        <div id="banner-info">
+        <div id="main-banner">
             <div id="banner-info">
-                <h1>Olá, eu sou a Isabeli!</h1>
+                <h1>Isabeli Bora</h1>
                 <img src="img/eu.jpg" alt="Perfil eu">
                 <p>Cursando Sistemas de Informação e apaixonada por tecnologia. </p>
             </div>
-
         </div>
     <!--BANNER FIM-->
     <!--(SOBRE) INÍCIO-->
@@ -51,9 +53,8 @@
                 <p class="subtitle">EXPERIÊNCIAS</p>
                 <p> ALTERAR </p>
             </div>
-
             <div class="container">
-                <div class="skills-container">
+                <div class="skills-container central">
                     <img src="img/skills.png">
                     <h3>Skills</h3>
                     <p>Resumo sobre minha personalidade</p>
@@ -73,11 +74,37 @@
                         <p class="subtitle">ALTERAR</p>
                         <p>ALTERAR</p>
                     </div>
-
-        </div>
-
+                </div>
     </section>
     <!--SKILLS FIM-->
-
-</body>
+    <!--JOBS INÍCIO-->
+    <section id="jobs-section"></section>
+        <h2>Veja meus últimos trabalhos:</h2>
+        <p>Aqui estão os meus trabalhos mais recentes, para ver todos <a href="#">clique aqui.</a></p> 
+        <div class="job-container">
+            <div class="job-box imagem1"></div>
+            <div class="job-box imagem2"></div>
+            <div class="job-box imagem3"></div>
+        </div>
+        <div class="job-box proj1"></div>
+            <div class="job-box imagem1"></div>
+            <div class="job-box imagem2"></div>
+            <div class="job-box imagem3"></div>
+         </div>
+    <!--JOBS FIM-->
+    <!--FOOTER INÍCIO-->
+    <footer>
+        <h2>Me mande uma mensagem</h2>
+        <p>Caso queira falar sobre algum projeto, me contratar para algum serviço, entrar em contato.</p>
+        <img src="img/msg.png" alt="Mensagem">
+        <form action="" method="">
+            <input type="text" name="name" placeholder="Seu nome">
+            <input type="email" name="email" placeholder="Seu e-mail">
+            <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Desenvolvido by <span class="detail"> Isabeli Bora</span></p>
+    </footer>
+    <!--FOOTER FIM-->
+    </body>
 </html>

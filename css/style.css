@@ -1,0 +1,134 @@
+/* geral */
+body,p,h1,h2, input, textarea{
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2{
+    font-size: 50px;
+}
+
+/* navbar */
+
+#navbar{
+    background-color: #4682b4	; /* cor do header */
+    color: #f5f5f5;
+    padding: 0 15px;
+    height: 90px; /* tamanho do header */
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav{
+    display: inline-block;
+}
+
+#navbar h2{
+    margin: 0;
+    line-height: 60px;
+    margin-left: 700px;
+}
+
+#navbar img{
+    height: 60px;
+    top: 15px;
+    position: relative;
+}
+
+#navbar nav{
+    float: right;
+    margin-top: 20px;
+}
+#navbar ul{
+    margin-top: 15px;
+}
+
+#navbar li{
+    margin: 0 10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+#navbar-list li a:hover { /* houver -> quando passa o mouse por cima aparece a palavra sublinhada) */
+    border-bottom: 1px solid #f5f5f5;
+}
+
+/* banner */
+
+#main-banner{
+    height: 70vh;
+    background-image: url("../img/back1.jpg");
+    background-size: cover;
+}
+
+#banner-info{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #f5f5f5;
+    padding: 50px;
+}
+
+#banner-info img{
+    height: 120px;
+    border-radius: 50%;
+    background-color : violet(96, 231, 34);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#banner-info p{
+    background-color: #4682b4;
+    font-weight: bold;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+
+/* about */
+
+#about-section{
+    text-align: center;
+    background-color: #4682b4;
+    color: #f5f5f5;
+    padding-top: 50px;
+    height: 350px;
+}
+
+#about-section h2{
+    margin-bottom: 20px;
+}
+
+#about-section p{
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+/* skills */
+
+#skills-section{
+    margin-top: -100px;
+    background-color: #fff;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#skills-section .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container{
+    flex: 1 1 1;
+    text-align: center;
+    padding: 60 px;
+}
