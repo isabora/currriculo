@@ -6,6 +6,10 @@ body,p,h1, input, textarea{
     
 }
 
+body{
+    background-color: #4682b4;
+}
+
 h2{
     font-size: 50px;
     color:(117, 52, 52);
@@ -39,6 +43,7 @@ h2{
     height: 60px;
     top: 15px;
     position: relative;
+    right: 90;
 }
 
 #navbar nav{
@@ -130,7 +135,7 @@ h2{
 }
 
 #skills-section .container{
-    display: flex;
+    display:inline-flex;
     flex-direction: row;
     justify-content: center;
 }
@@ -138,7 +143,7 @@ h2{
 .skills-container{
     flex: 1 1 1;
     text-align: center;
-    padding: 60px 25px;
+    padding: 20px 35px;
 }
 
 .central{
@@ -148,7 +153,7 @@ h2{
 
 .skills-container h3{
     color: #4682b4;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -166,7 +171,7 @@ h2{
 }
 
 .skills-container p{
-    line-height: 25px;
+    line-height: 45px;
 }
 
 /* jobs */
@@ -177,7 +182,7 @@ h2{
 }
 
 #jobs-section h2{
-    color:#4682b4;
+    color:#0c2336;
     margin-bottom: 30px; 
 }
 
@@ -257,4 +262,22 @@ footer input, footer textarea{
 
 footer .detail{
     font-weight: bold;
+}
+
+/* responsivo celular -media query */
+
+@media(max-width: 450px){
+    /* html - 18px -> 1rem -> 18px */
+
+
+
+    p,input, textarea{
+        font-size: 1.2rem; /* REM É PARA MOBILE */
+
+        /*navbra */
+        display: none;
+        top: 9px;
+    }
+
+
 }
